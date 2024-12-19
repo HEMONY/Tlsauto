@@ -14,9 +14,9 @@ import undetected_chromedriver as uc
 
 
 # معلومات تسجيل الدخول
-token = '7678285490:AAHygxzaGsbaK2G-RpjDY7xdFpbLfp-AmL0'
-LOGIN = "ben81driss@gmail.com"#بريدك الالكنروني
-PASSWORD = "Khelifa1981@"#كلمة السر
+token ='TOKEN'
+LOGIN = "EMAIL"#بريدك الالكنروني
+PASSWORD = "PASSWORD"#كلمة السر
 bot = telebot.TeleBot(token)
 admin = [6760970896, 588461026]
 # إعداد خيارات المتصفح
