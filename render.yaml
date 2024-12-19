@@ -8,11 +8,11 @@ services:
   plan: free
   autoDeploy: false
   envVars:
-  - key: LINE_CHANNEL_ACCESS_TOKEN
+  - key: TOKEN
     sync: false
-  - key: LINE_CHANNEL_SECRET
+  - key: EMAIL
     sync: false
-  - key: OPENAI_API_KEY
+  - key: PASSWORD
     sync: false
 # - type: web
 #   name: line-bot-python-flask-with-handler
